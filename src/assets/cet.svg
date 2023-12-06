@@ -1,0 +1,6 @@
+<!-- For more settings use the AutoHTML plugin tab ... --> 
+ <svg class="arcticons-rdclient" width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+  	<path d="M58.8281 31.3281V10.7031H7.10938V45.0781H30.3906V51.5625C30.3906 53.125 30.5469 54.6875 26.6406 54.8437H22.1094C21.2454 54.8636 20.4223 55.2157 19.8112 55.8268C19.2001 56.4379 18.848 57.261 18.8281 58.125H37.5781" stroke="#D61426" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  	<path d="M50.7031 64.2969C60.1955 64.2969 67.8906 56.6018 67.8906 47.1094C67.8906 37.617 60.1955 29.9219 50.7031 29.9219C41.2107 29.9219 33.5156 37.617 33.5156 47.1094C33.5156 56.6018 41.2107 64.2969 50.7031 64.2969Z" stroke="#D61426" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  	<path d="M57.8125 37.5L51.7187 43.5937L57.8125 49.6875M43.8281 44.6094L49.9219 50.7031L43.8281 56.7969M30.3906 45.0781H33.5156" stroke="#D61426" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

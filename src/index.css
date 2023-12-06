@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+@keyframes slideIn {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 256px;
+    left: 160px;
+  }
+}
+
+.animated-img {
+  animation: slideIn 2s ease-in-out; /* Adjust the duration and easing as needed */
+  filter: blur(0); /* Remove the blur at the end of the animation */
+}
+
+.sliding {
+  animation: slideIns 1.5s ease-in-out;
+}
+
+.sliding1 {
+  animation: slideIns 2.5s ease-in-out;
+  animation-delay: 2;
+}
+
+.sliding2 {
+  animation: slideIns 3s ease-in-out;
+  animation-delay: 3;
+}
+
+@keyframes slideIns {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.animated-img-2 {
+  animation: slideout 2s ease-in-out; /* Adjust the duration and easing as needed */
+  filter: blur(0); /* Remove the blur at the end of the animation */
+}
+@keyframes slideout {
+  from {
+    top: 0;
+    right: 0;
+  }
+  to {
+    top: 256px;
+    right: 160px;
+  }
+}
+
+/* Add this style for the animation delay */
+.animated-service {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.animated-service1 {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-process {
+  opacity: 0;
+  animation: slideright 0.5s ease-out forwards;
+}
+
+.animated-process1 {
+  opacity: 0;
+  animation: slideright 0.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+.animated-process2 {
+  opacity: 0;
+  animation: slideright 0.5s ease-out forwards;
+  animation-delay: 1s;
+}
+.animated-process3 {
+  opacity: 0;
+  animation: slideright 0.5s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes slideright {
+  from {
+    opacity: 0;
+    transform: translatex(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+/* custom scrollbar */
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d61426;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #fff;
+}
+
+.red-gradient{
+  background: linear-gradient(black 20%, #630a13 60%,#D61426 100%);
+}
+.red-filter{
+  filter: brightness(90%) hue-rotate(330deg);
+}
+.data-img{
+  filter: hue-rotate(100deg);
+}
+.analytics{
+  filter: hue-rotate(150deg);
+}
+.documentation{
+  filter: hue-rotate(400deg);
+}
